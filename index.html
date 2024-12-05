@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Défends la Forteresse - CAPTCHA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    canvas {
+      display: block;
+      margin: 20px auto;
+      background: #333;
+      border: 2px solid #000;
+    }
+    #game-status {
+      font-size: 1.2em;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Défends la Forteresse !</h1>
+  <p id="game-status">Clique sur les bots pour protéger ta forteresse !</p>
+  <canvas id="gameCanvas" width="600" height="400"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
